@@ -39,6 +39,6 @@ Will contain dictionary corresponding to top 50 recommendation based on hybrid w
 
 Each dictionary consist of userid as key and another dictionary as value. The value dictionary consist of predicted recommendation, actual recommendation, recall percentage for topk, count of match as numerator and length of actual recommendation as denominator key.
 
-These dictionary passed through gloabRecallMethod to get gloabl recall percentage, mean, median and percentage of user correctly recommended atleast 10% recommendation out of top k.
+These dictionary passed through gloabRecallMethod to get global recall percentage, mean, median and percentage of user correctly recommended atleast 10% recommendation out of top k.
 
     obj.globalRecallCalc(val50_hybrid)
