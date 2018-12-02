@@ -7,3 +7,4 @@ tf_idf_based.py: This is for the tf-idf based vector implementation, Installing 
 
 metaDataBased_contentBased: This is the combination of both tf-idf and metadata based. The feature set creation code is commented out. Actual feature set is very large 4.5 GB. We can provide in case needed. This requires high RAM capacity to train.
 
+opeartion.py : This file controls the evaluation part over popularity, region wise popularity, collaborative filtering both approaches, hybrid methods and clustered colaborative filtering
